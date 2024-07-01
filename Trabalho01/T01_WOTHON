@@ -1,0 +1,165 @@
+Wothon Meteus de Araujo 12111BSI262
+
+Observação: Não entendi muito bem com era para ser entregue essa atividade, então expliquei o que todos os comando faz e logo abaixa colei o resultado gerado em minha maquina para algumas consulta não foi possivil fazer esse processo com por exemplo o comando clear ou exit
+
+***************MAN****************
+
+Man é uma abreviação de "manual". Ele é usado para exibir o manual de referência de outros comandos do sistema operacional Linux e de várias outras ferramentas e programas instalados no sistema. Realizado a consulta em meu PC retorna mais primeiras linhas esse resultado (man ls) NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information  about  the FILEs (the current directory by default).
+       Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci‐
+       fied.
+       
+****************PWD****************
+
+pwd O comando pwd é uma abreviação de "print working directory" (imprimir diretório de trabalho). Realizado a consulta em meu PC retorna mais primeiras linhas esse resultado. /hone/wothon
+
+*****************LS********************
+
+o comando ls é usado no sistema operacional Unix e Unix-like, incluindo o Linux, para listar os arquivos e diretórios no diretório atual. Realizado a consulta em meu PC retorna mais primeiras linhas esse resultado.
+ 
+ Área de Trabalho'         Downloads   Música     snap
+ Documentos                Imagens     pgadmin4   Vídeos
+'Documento sem título 1'   Modelos     Público
+
+******************CD******************
+
+O comando cd é uma abreviação de "change directory" (mudar diretório). Ele é usado para alterar o diretório atual do terminal para outro diretório especificado.Realizado a consulta em meu PC retorna mais primeiras linhas esse resultado.
+
+ cd Downloads
+ pwd home/wothon/Downloads
+ 
+ *****************clear***************
+ 
+O comando clear é usado para limpar o conteúdo do terminal, removendo todas as saídas anteriores e movendo o cursor para o topo da tela. 
+
+******************Alias**************
+
+O comando alias é usado no Linux e em sistemas Unix-like para criar atalhos ou apelidos para comandos mais longos ou complexos. Com o alias, você pode atribuir um nome mais curto ou mais fácil de lembrar para um comando ou uma sequência de comandos.
+
+alias l='ls -lh'  Depois de definir o alias, sempre que você digitar l no terminal e pressionar Enter, o comando ls -lh será executado.
+
+*******************Ping*************
+
+O comando ping é uma ferramenta de linha de comando usada para testar a conectividade entre dois dispositivos em uma rede IP. Ele envia pacotes de dados para um host específico (geralmente um endereço IP) e aguarda por respostas. Resultado para a consulta ping google.com
+
+PING google.com(2800:3f0:4001:81d::200e (2800:3f0:4001:81d::200e)) 56 data bytes
+64 bytes from 2800:3f0:4001:81d::200e (2800:3f0:4001:81d::200e): icmp_seq=1 ttl=55 time=27.0 ms
+--- google.com ping statistics ---
+94 packets transmitted, 93 received, 1.06383% packet loss, time 93161ms
+rtt min/avg/max/mdev = 25.344/27.491/40.908/2.801 ms
+
+*******************wget****************
+
+O comando wget é uma ferramenta de linha de comando utilizada para baixar arquivos da internet. 
+
+wget http://exemplo.com/arquivo.zip
+--2024-02-23 20:39:33--  http://exemplo.com/arquivo.zip
+Resolvendo exemplo.com (exemplo.com)... 99.83.248.67
+Conectando-se a exemplo.com (exemplo.com)|99.83.248.67|:80... conectado.
+A requisição HTTP foi enviada, aguardando resposta... 403 Forbidden
+2024-02-23 20:39:34 ERRO 403: Forbidden.
+
+********************tar****************
+
+O comando tar é para criar, visualizar, modificar ou extrair arquivos compactados em formato tar. "tar" é uma abreviação de "tape archive", originalmente usado para trabalhar com arquivos em fita, mas agora é amplamente utilizado para arquivar e compactar arquivos e diretórios.
+
+********************cat****************
+
+O comando cat é uma abreviação de "concatenate" (concatenar), e é usado no Linux e em sistemas Unix para exibir o conteúdo de arquivos de texto no terminal. Além disso, o cat também pode ser usado para concatenar (ou combinar) vários arquivos de texto em um único arquivo.
+
+
+*************Lesse ou More***************
+more e less são dois comandos utilizados para visualizar conteúdo de arquivos de texto no terminal do sistema operacional Linux ou Unix. Ambos são paginadores, o que significa que eles permitem visualizar o conteúdo de um arquivo de texto de forma mais organizada, uma página de cada vez, facilitando a leitura de grandes arquivos.
+
+**************Gedit*******************
+
+gedit é um editor de texto simples e leve que faz parte do ambiente de desktop GNOME no Linux. Ele fornece uma interface gráfica de usuário (GUI) para editar arquivos de texto de forma fácil e intuitiva.
+
+***************Head e Tail************
+
+Os comandos head e tail são usados para exibir as primeiras ou últimas linhas de um arquivo de texto. Realise a cosulta desse proprio arquivo.
+
+
+comados em linex 
+
+***************MAN****************
+
+Man é uma abreviação de "manual". Ele é usado para exibir o manual de referência de outros comandos do sistema operacional Linux e de várias outras ferramentas e programas instalados no sistema. Realizado a consulta em meu PC retorna mais primeiras linhas esse resultado (man ls) NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+
+************* MV *****************
+
+O comando mv é utilizado no sistema operacional Linux e em sistemas Unix para mover ou renomear arquivos e diretórios de um local para outro. A sintaxe básica do comando mv é a seguinte:
+
+
+*************** RM *******************
+O comando rm é usado para excluir arquivos ou diretórios no sistema operacional Linux e em sistemas Unix-like. Ele é uma abreviação de "remove". No entanto, é importante ter em mente que o rm exclui permanentemente os arquivos e diretórios, o que significa que eles não são movidos para a lixeira e não podem ser recuperados facilmente. 
+
+*************** mkdir e rmdir *********
+
+Os comandos mkdir e rmdir são utilizados para criar e remover diretórios, respectivamente.
+
+************** which***************
+
+O comando which é usado no Linux e em sistemas Unix-like para determinar o caminho completo de um executável que será executado quando você digita um determinado comando no terminal.
+
+    which 
+    /usr/bin/ls
+    
+***************history**************
+
+O comando history é usado no terminal do Linux e de sistemas Unix-like para exibir uma lista dos comandos anteriormente executados durante a sessão atual. Ele mostra uma lista numerada dos comandos que você digitou no terminal, junto com seus números de sequência.
+
+Resultado da consulta em meu PC apenas os 10 primeiros
+
+1  cd 
+    2  user
+    3  cd 
+    4  ls
+    5  ls Dawnloads
+    6  ls Downloads
+    7  psql -h 152.67.35.205 -U aluno -p 5433 ib62 -c 'select count(1) from agencia;'
+    8  psql -h 152.67.35.205 -U aluno -p 5433 ib62 -c 'select count(1) from agencia
+    9  ib62
+   10  psql -h 152.67.35.205 -U aluno -p 5433 ib62 -c 'select count(1) from agencia
+   
+***************exit****************
+
+O comando exit é utilizado para sair do terminal ou encerrar a sessão de terminal atual. Quando você digita exit e pressiona Enter, o terminal é fechado e você é desconectado da sessão atual, retornando ao ambiente anterior ao terminal.
+
+//////////////////////// Lista avançada //////////////////////////
+
+Um pipeline é uma sequência de comandos no sistema operacional Unix e Unix-like, como Linux, onde a saída de um comando é utilizada como entrada para outro comando subsequente. Isso permite encadear múltiplos comandos juntos para realizar uma tarefa mais complexa de forma eficiente.
+
+************************ grep *****************************
+
+O comando grep é uma ferramenta de linha de comando amplamente utilizada em sistemas operacionais Unix e Unix-like, como Linux. Ele é usado para pesquisar padrões em arquivos de texto ou em saídas de outros comandos.
+
+************************ find ****************************
+
+O comando find é uma ferramenta de linha de comando usada em sistemas operacionais Unix e Unix-like, como Linux, para procurar arquivos e diretórios em uma hierarquia de diretórios.
+
+************************* Sed ***********************
+
+O comando sed é especialmente útil para realizar substituições de texto, exclusões, inserções e outras operações de edição em arquivos de texto ou fluxos de texto.
+
+
+
+
+
+
+
+
+
+
+
